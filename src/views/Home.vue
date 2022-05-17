@@ -28,10 +28,10 @@
           >Documentation.</b-card
         >
         <br />
-        <b-button variant="link" size="lg"
+        <b-button variant="link" size="lg" @click="window.location='https://youtu.be/oXWZOmQJwQA'"
           ><b-icon-youtube variant="light"></b-icon-youtube
         ></b-button>
-        <b-button variant="link" size="lg"
+        <b-button variant="link" size="lg" @click="window.location='https://github.com/Fluffy9/DotDotDotsPrinter'"
           ><b-icon-github variant="light"></b-icon-github
         ></b-button>
         <b-button variant="link" size="lg" :href="'https://dashboard.tenderly.co/contract/rinkeby/' + $store.state.Rinkeby.DotDotDotPrinter + '/source'"
