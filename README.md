@@ -27,8 +27,12 @@ When all these are true, the Keeper will call the `performUpkeep` function. This
 ### Fees
 As an extra feature, the contract has the ability to charge a service fee. This increases the amount of WETH the buyer must allow the contract to spend. The contract owner can later retrieve the collected fees using the `withdraw` function. The contract owner can change the fee with the `setFee` function. It's currently set to 0. 
 
+### ModifiedDot.sol
+Since this project is running only on Rinkeby testnet, I had to deploy the DotDotDot NFT collection there. I made a single change to its contract, removing `onlyOwner` on `setMaxTokenSupply` so that it's callable by anyone. Just incase you mint all 10k NFTs while testing and need more to test on. Beyond that, this could very easily be deployed to mainnet and set up to work on the real NFT collection
+
 ### Risks
 Luckily there is very little to exploit here. The contract never holds user funds, since pulling money from the users wallet and sending them a new NFT all happens in the same transaction.
+
 
 ## Project setup
 ```
