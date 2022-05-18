@@ -53,14 +53,6 @@ $dark: #20212c;
   font-family: "Abyss";
   src: url("./assets/fonts/Abyss.otf") format("opentype");
 }
-@font-face {
-  font-family: "Basteleur";
-  src: url("./assets/fonts/Basteleur-Bold.otf") format("opentype");
-}
-@font-face {
-  font-family: "Patriot";
-  src: url("./assets/fonts/Patriot-Black.woff") format("woff");
-}
 html,
 body {
   background-color: $dark;
