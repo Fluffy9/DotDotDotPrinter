@@ -19,14 +19,13 @@
           >FAQs/Disclaimers.</b-card
         >
         <br />
+        <a href="https://github.com/Fluffy9/DotDotDotPrinter" class="text-reset text-decoration-none">
         <b-card
           role="button"
           bg-variant="dark"
-          @click="
-            window.location = 'https://github.com/Fluffy9/DotDotDotsPrinter'
-          "
+          
           >Documentation.</b-card
-        >
+        ></a>
         <br />
         <b-button variant="link" size="lg" href="https://youtu.be/oXWZOmQJwQA"
           ><b-icon-youtube variant="light"></b-icon-youtube

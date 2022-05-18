@@ -7,11 +7,11 @@
 
       <b-collapse id="nav-text-collapse" is-nav>
         <b-navbar-nav>
-          <b-nav-item href="/">Home</b-nav-item>
+          <b-nav-item to="/">Home</b-nav-item>
           <b-nav-item to="About">About</b-nav-item>
           <b-nav-item to="Print">Print</b-nav-item>
           <b-nav-item to="FAQs">FAQs</b-nav-item>
-          <b-nav-item href="https://github.com/Fluffy9/DotDotDotsPrinter"
+          <b-nav-item href="https://github.com/Fluffy9/DotDotDotPrinter"
             >Documentation</b-nav-item
           >
         </b-navbar-nav>
